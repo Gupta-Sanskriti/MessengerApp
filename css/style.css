@@ -1,0 +1,116 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+    font-weight: 100;
+    text-align: left;
+    text-justify: inter-word;
+}
+body{
+    background-color: #607EAA;
+
+}
+.navbar-top{
+    display: flex;
+    background-color: #1C3879;
+    
+}
+.logo{
+    color: #F9F5EB;
+    justify-content: center;
+    margin: auto;
+    font-size: 2.7rem;
+    font-weight: 100;
+}
+
+.container{
+    max-width: 80vw;
+    margin: auto;
+    /* background-color: #fff; */
+    height:85vh;
+    padding:1rem;
+    overflow-y: scroll;
+}
+
+.message{
+    background-color: #EAE3D2;
+    max-width: 70%;
+    min-width: 5%;
+    padding:0.7rem;
+    margin: 0.3rem;
+    border-radius: 25px;    
+}
+
+.left{
+    float: left;
+    clear: both; /* wont allow the other one to take it's space */
+    border: 2px solid #ebe0c6;
+}
+.right{
+    float:right;
+    clear: both;
+    background-color: #2B4865;
+    border: 2px solid #274665;
+    color: #F9F5EB;
+}
+
+.joined-info{
+    background-color:#496083;
+    color:rgb(255, 255, 255);
+    border-radius: 1rem; 
+    max-width: 70%;
+    min-width: 5%;
+    clear: both;
+    padding:0.2rem 0.4rem;
+    margin: 1rem auto;
+    
+
+}
+.center{
+    text-align: center;
+}
+
+/* input and button placement */
+
+.send{
+    width: 80vw;
+    display: block;
+    margin:auto;
+}
+#send-container{
+    display: grid;
+    height:6vh;
+    grid-template-columns: 3fr 1fr;
+    text-align: center;
+    
+}
+
+#messageInp{
+    border:none;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-width:0px;
+    outline:none;
+    padding-left: 2rem;
+    font-size: 1.2rem;
+}
+
+.btn{
+    border:none;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    background-color: #1C3879;
+    text-align: center;
+    color: #F9F5EB;
+    font-size: 1.2rem;
+    font-weight: 100;
+}
+
+/* .btn:active{
+    transform: translate(1px);
+} */
+
+.btn:hover{
+    background-color: #152d66;
+}
